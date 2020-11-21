@@ -14,6 +14,14 @@ router.use('/service1.js', createProxyMiddleware({
   changeOrigin: true,
 }));
 
+router.use('/style.css-Service1', createProxyMiddleware({
+  target: service1.url,
+  pathRewrite: {
+    '^/bundles/style.css-Service1': service1.style,
+  },
+  changeOrigin: true,
+}));
+
 router.use('/service2.js', createProxyMiddleware({
   target: service2.url,
   pathRewrite: {
