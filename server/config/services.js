@@ -51,15 +51,12 @@ module.exports = {
     api: '/:id',
     url: 'http://localhost:3002',
     bundle: 'bundle.js',
+    style: 'style.css',
   },
   service3: {
     api: '/reviews/:id',
     url: 'http://localhost:3003',
     bundle: 'bundle.js',
-  },
-  service4: {
-    api: '/qa/:id',
-    url: 'http://localhost:3004',
-    bundle: 'bundle.js',
+    style: 'style.css',
   },
 };
