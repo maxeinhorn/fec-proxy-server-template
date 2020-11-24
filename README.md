@@ -8,3 +8,7 @@ This is an template proxy server that you can use to quickly display all four in
 - Run `npm install` to install all the project dependencies
 - Read the information and instructions in `server/config/services.js` to provide the required configuration information to enable the proxying functionality
 - Run `npm start` or `npm start:dev` to start the server
+
+# Other
+http://52.206.128.170:3001/1
+.ssh folder contains pem
