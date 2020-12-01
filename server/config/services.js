@@ -40,20 +40,39 @@
   }
 */
 
+// module.exports = {
+//   service1: {
+//     api: '/product/:id',
+//     url: 'http://localhost:3001',
+//     bundle: 'bundle.js',
+//   },
+//   service2: {
+//     api: '/QnA/:id',
+//     url: 'http://localhost:3002',
+//     bundle: 'bundle.js',
+//   },
+//   service3: {
+//     api: '/reviews/:id',
+//     url: 'http://52.206.128.170:3001/',
+//     bundle: 'bundle.js',
+//   },
+// };
+
 module.exports = {
   service1: {
-    api: '/product/:id',
-    url: 'http://localhost:3001',
+    api: '/products/:id',
+    url: 'http://13.56.223.106:3001/',
+    // url: 'http://localhost:3001/',
     bundle: 'bundle.js',
   },
   service2: {
-    api: '/QnA/:id',
-    url: 'http://localhost:3002',
+    api: '/getData/:id',
+    url: 'http://3.128.24.117:3001/',
     bundle: 'bundle.js',
   },
   service3: {
     api: '/reviews/:id',
-    url: 'http://localhost:3003',
+    url: 'http://52.206.128.170:3003/',
     bundle: 'bundle.js',
   },
 };
