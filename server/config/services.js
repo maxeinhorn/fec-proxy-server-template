@@ -42,12 +42,12 @@
 
 module.exports = {
   service1: {
-    api: '/reviews/:id',
+    api: '/product/:id',
     url: 'http://localhost:3001',
     bundle: 'bundle.js',
   },
   service2: {
-    api: '/:id',
+    api: '/QnA/:id',
     url: 'http://localhost:3002',
     bundle: 'bundle.js',
   },
