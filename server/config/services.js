@@ -72,7 +72,7 @@ module.exports = {
   },
   service3: {
     api: '/reviews/:id',
-    url: 'http://52.206.128.170:3003/',
+    url: 'http://3.93.231.230:3003/',
     bundle: 'bundle.js',
   },
 };
